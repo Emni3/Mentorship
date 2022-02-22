@@ -1,0 +1,15 @@
+class Circle:
+    Pi = 3.14
+    def__init__(self, radius, color):
+        self.radius = radius
+        color = ("red", "green", "blue")
+        self.circle = []
+    def__add__(self, new):
+        bigger = Circle(self.radius + new.radius)
+        bigger.circle.extend([self, new])
+        return bigger
+    def circumfrance(self):
+        return Pi*(self.radius*2)
+    def area(self):
+        return Pi*pow(self.radius, 2)
+     
