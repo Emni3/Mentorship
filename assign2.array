@@ -1,0 +1,7 @@
+class Set:
+  def threeNumsSumToZero(self, nums):
+    nums.sort()
+    ans = []
+    i = 0
+    
+    
